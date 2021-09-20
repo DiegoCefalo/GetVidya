@@ -1,4 +1,4 @@
-![edad](https://github.com/SweetBabyJezuz/Jaws/blob/master/img/edad.jpg)
+![videogames](https://github.com/DiegoCefalo/GetVidya/blob/main/img/national-video-games-day.jpg)
 # GetVidya
     This project is meant to be a game recommender. It's an API that takes data from an SQL database which contains more than 200k comments reviewing videogames. This comments have been processed using the "spaCy" library to remove stopwords (words that do not contribute to the sentiment analysis) and the "NLTK" library to globalize the sentiment for each videogame. The data was obtained from kaggle:
 * [Videogame data](https://www.kaggle.com/dahlia25/metacritic-video-game-comments)
@@ -13,7 +13,7 @@
 * http://localhost:5000/score : It requires the name of the game as a parameter (e.g. game=The Legend of Zelda: Ocarina of Time) and returns a json with the overall sentiment of the comments about the game (the mean of the polarization of the comments where 1 is completely positive and -1 is completely negative). 
 * http://localhost:5000/form :  same as /newcomment but you can fill out a form through the browser.
 ## Top Games
-![edad](https://github.com/SweetBabyJezuz/Jaws/blob/master/img/edad.jpg)
+![top games](https://github.com/DiegoCefalo/GetVidya/blob/main/img/topgames.jpg)
  These are the top 10 games based on sentiment
  ## Used libraries
  * [Pandas](https://pandas.pydata.org/docs/)
