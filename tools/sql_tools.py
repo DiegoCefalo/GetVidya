@@ -136,6 +136,18 @@ def insertplatform(platform):
     return f"Se ha introducido correctamente: {platform}"
 
 def new_comment(videogame, platform, username, comment):
+    """
+    Inserts a comment into the database.
+    Args: 
+        game (str): name of the game to insert
+        platform (str): name of the platform to insert
+        username (str): name of the poster
+        comment (str): comment to be loaded
+    Returns:
+        confirmation message: "Comment successfully loaded" when successful
+        rejection message: "This comment has already been posted" when the comment is already in the database
+            
+    """
     if check("videogame", videogame):
         game_id = getid("videogame", videogame)
     else:
