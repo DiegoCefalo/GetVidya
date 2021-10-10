@@ -26,3 +26,4 @@ These are the top 10 games based on sentiment</br>
  * [NLTK](https://www.nltk.org/)
  * [Flask](https://flask.palletsprojects.com/en/2.0.x/)
  * [Flask-WTF](https://flask-wtf.readthedocs.io/en/0.15.x/)
+ * [SQLalchemy](https://docs.sqlalchemy.org/en/14/)
